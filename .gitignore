@@ -1,16 +1,12 @@
-# Frontend dependencies and builds
+# Frontend
+frontend/node_modules/
+frontend/dist/
 node_modules/
-dist/
 
-# Backend generated files
+# Backend
 backend/target/
 
-# Environment secrets
+# Secrets
 .env
 .env.*
 !.env.example
-
-# IDE files
-.idea/
-.vscode/
-*.iml
